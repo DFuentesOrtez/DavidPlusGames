@@ -67,8 +67,10 @@ nav a {
 /* Add a red background color to navbar links on hover */
 nav a:hover,
 nav a:active,
+nav a:focus,
 .dropdown:hover .dropbtn,
-.dropdown:active .dropbtn {
+.dropdown:active .dropbtn,
+.dropdown:focus .dropbtn {
     background-color: rgb(185, 185, 185);
 }
 
@@ -94,12 +96,14 @@ nav a:active,
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover,
-.dropdown-content a:active {
+.dropdown-content a:active,
+.dropdown-content a:focus {
     background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content,
-.dropdown:active .dropdown-content {
+.dropdown:active .dropdown-content,
+.dropdown:focus .dropdown-content {
     display: block;
 }
