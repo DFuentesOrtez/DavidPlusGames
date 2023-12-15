@@ -5,16 +5,16 @@
 }
 
 body {
-    background-color: rgb(138, 138, 138);
+    background-color: #8799A1;
 }
 
-.wrapper {
-    background-color: rgb(187, 187, 187);
+header .wrapper {
+    background-color: #9095a3;
     height: 100px;
 }
 
-h1.logo {
-    background: url(images/dpg_sm.png) no-repeat 5% center;
+.logo {
+    background: url(images/dpg.png) no-repeat 5% center;
     width: 70%;
     margin-right: auto;
     height: 100px;
@@ -43,7 +43,7 @@ header .wrapper {
 
 header nav ul {
     overflow: hidden;
-    background-color: #505050;
+    background-color: #9a8da7;
     height: 0;
     max-width: 110px;
     min-width: 40px;
@@ -62,10 +62,53 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #1f1f1f;
     padding: 10px;
     border-bottom: 1px solid #404040;
+    border-left: 1px solid #404040;
+    /* border-right: 1px solid #404040; */
     display: block;
     margin: 0;
     text-decoration: none;
+}
+
+header nav ul li #first {
+    /* border-top: 1px solid #404040; */
+}
+
+main .wrapper {
+    /* width: 100%; */
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 75px auto 0 auto;
+    border-bottom: 1px solid #404040;
+}
+
+.game {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.game-cover {
+    padding-top: 20px;
+}
+
+.game-title {
+    color: white;
+    text-decoration: underline;
+}
+
+.game-startDate,
+.game-endDate {
+    /* margin: 0 auto;
+    width: 60%; */
+    color: rgb(204, 204, 204);
+    text-align: center;
 }
