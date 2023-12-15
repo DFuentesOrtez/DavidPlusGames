@@ -5,25 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js" defer></script>
+    <script src="script.js" defer></script>
     <title>David and Games</title>
 </head>
 
 <body>
-    <div class="nav-container">
-        <nav>
-            <img src="/images/dpg_bl.png" alt="" width="100px">
-            <div class="dropdown" onclick="void(0)">
-                <button class="dropbtn"><img src="/images/dropdown.png" alt="" width="50px">
-                    <i class="fa fa-caret-down"></i>
-                </button>
-
-                <div class="dropdown-content">
-                    <a href="">About</a>
-                    <a href="">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <header>
+        <div class="wrapper">
+            <h1 class="logo">DavidPlaysGames</h1>
+            <nav>
+                <a class="drop-icon"></a>
+                <!-- <h2>Main Navigation</h2> -->
+                <ul id="drop-list">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+            </nav>
+        </div>
+    </header>
 </body>
 
 </html>
