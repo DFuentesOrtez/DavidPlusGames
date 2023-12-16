@@ -66,18 +66,9 @@ header nav ul li a {
     padding: 10px;
     border-bottom: 1px solid #404040;
     border-left: 1px solid #404040;
-    /* border-right: 1px solid #404040; */
     display: block;
     margin: 0;
     text-decoration: none;
-}
-
-header nav ul li #first {
-    /* border-top: 1px solid #404040; */
-}
-
-main .wrapper {
-    /* width: 100%; */
 }
 
 main h1 {
@@ -107,8 +98,6 @@ main h1 {
 
 .game-startDate,
 .game-endDate {
-    /* margin: 0 auto;
-    width: 60%; */
     color: rgb(204, 204, 204);
     text-align: center;
 }
