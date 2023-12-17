@@ -8,8 +8,12 @@ body {
     background-color: #8799A1;
 }
 
+p {
+    /* font-size: ; */
+}
+
 header .wrapper {
-    background-color: #9095a3;
+    background-color: #cacaca;
     height: 100px;
 }
 
@@ -36,6 +40,10 @@ nav {
     margin-left: auto;
 }
 
+.drop-icon:hover {
+    background-color: rgb(192, 192, 192);
+}
+
 header .wrapper {
     /* width: 100%;
     padding: 0; */
@@ -43,11 +51,12 @@ header .wrapper {
 
 header nav ul {
     overflow: hidden;
-    background-color: #9a8da7;
+    /* background-color: #cacaca; */
     height: 0;
     max-width: 110px;
     min-width: 40px;
     margin-left: auto;
+    margin-right: 18px;
 }
 
 header nav ul.open {
@@ -64,11 +73,26 @@ header nav ul li {
 header nav ul li a {
     color: #1f1f1f;
     padding: 10px;
-    border-bottom: 1px solid #404040;
-    border-left: 1px solid #404040;
+    border-bottom: 2px solid #404040;
+    border-left: 2px solid #404040;
+    border-right: 2px solid #404040;
     display: block;
     margin: 0;
     text-decoration: none;
+    background-color: #cacaca;
+}
+
+header nav ul li #first {
+    border-top: 2px solid #404040;
+    border-radius: 10px 10px 0 0;
+}
+
+header nav ul li #second {
+    border-radius: 0 0 10px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: rgb(172, 172, 172);
 }
 
 main h1 {
@@ -78,6 +102,26 @@ main h1 {
     width: 90%;
     margin: 75px auto 0 auto;
     border-bottom: 1px solid #404040;
+}
+
+.intro h2,
+.intro p {
+    color: white;
+}
+
+.intro h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.intro p {
+    padding-top: 1em;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 750px;
 }
 
 .game {
@@ -100,4 +144,22 @@ main h1 {
 .game-endDate {
     color: rgb(204, 204, 204);
     text-align: center;
+}
+
+.intro {
+    margin: 75px auto 0 auto;
+}
+
+footer {
+    background-color: #cacaca;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #272727;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
 }
