@@ -8,10 +8,6 @@ body {
     background-color: #8799A1;
 }
 
-p {
-    /* font-size: ; */
-}
-
 header .wrapper {
     background-color: #cacaca;
     height: 100px;
@@ -44,14 +40,8 @@ nav {
     background-color: rgb(192, 192, 192);
 }
 
-header .wrapper {
-    /* width: 100%;
-    padding: 0; */
-}
-
 header nav ul {
     overflow: hidden;
-    /* background-color: #cacaca; */
     height: 0;
     max-width: 110px;
     min-width: 40px;
@@ -95,13 +85,14 @@ header nav ul li a:hover {
     background-color: rgb(172, 172, 172);
 }
 
-main h1 {
-    color: white;
-    text-align: center;
-    padding-bottom: 10px;
-    width: 90%;
-    margin: 75px auto 0 auto;
-    border-bottom: 1px solid #404040;
+/* 
+ *
+ * INTRO SECTION
+ *
+ */
+
+.intro {
+    margin: 85px auto 0 auto;
 }
 
 .intro h2,
@@ -124,6 +115,27 @@ main h1 {
     max-width: 750px;
 }
 
+/* 
+ *
+ * MAIN SECTION
+ *
+ */
+
+main h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: 75px auto 0 auto;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+/* 
+ *
+ * GAME SECTION
+ *
+ */
+
 .game {
     width: 100%;
     display: block;
@@ -137,18 +149,91 @@ main h1 {
 
 .game-title {
     color: white;
-    text-decoration: underline;
+    border-bottom: 2px solid rgb(230, 230, 230);
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.game-startDate {
+    padding-top: 10px;
 }
 
 .game-startDate,
 .game-endDate {
-    color: rgb(204, 204, 204);
-    text-align: center;
+    color: rgb(236, 236, 236);
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
 }
 
-.intro {
-    margin: 75px auto 0 auto;
+/* 
+ *
+ * ARCHIVE SECTION
+ *
+ */
+
+.archive-wrapper {
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
+
+.archive {
+    margin: 0 auto;
+}
+
+.archive h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid rgb(231, 231, 231);
+    padding-top: 25px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* .archive h2 a {
+    color: white;
+    text-decoration: none;
+} */
+
+.archive h2:hover {
+    color: rgb(24, 45, 90);
+    cursor: pointer;
+}
+
+.archive h2 img {
+    width: 20px;
+}
+
+.archive-covers2023,
+.archive-covers2022,
+.archive-covers2021 {
+    width: 90%;
+    max-width: 450px;
+    min-width: 310px;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: center;
+    display: none;
+}
+
+.archive-covers img {
+    width: 100px;
+}
+
+.archive-covers2023.open,
+.archive-covers2022.open,
+.archive-covers2021.open {
+    display: block;
+}
+
+/* 
+ *
+ * FOOTER SECTION
+ *
+ */
 
 footer {
     background-color: #cacaca;
