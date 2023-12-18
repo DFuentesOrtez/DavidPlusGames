@@ -195,14 +195,54 @@ main h1 {
     font-weight: bold;
 }
 
-.review p:nth-of-type(4) {
-    /* border-bottom: 1px solid white; */
+#spoiler1,
+#spoiler2,
+#spoiler3,
+#spoiler4,
+#spoiler5,
+#spoiler6,
+#spoiler7 {
+    font-size: 12px;
 }
 
-.review p:nth-of-type(5) {
-    padding-top: 5px;
-    border-bottom: 1px solid white;
-    padding-bottom: 10px;
+#spoiler1:hover,
+#spoiler2:hover,
+#spoiler3:hover,
+#spoiler4:hover,
+#spoiler5:hover,
+#spoiler6:hover,
+#spoiler7:hover {
+    color: rgb(98, 0, 255);
+}
+
+.thoughts1,
+.thoughts2,
+.thoughts3,
+.thoughts4,
+.thoughts5,
+.thoughts6,
+.thoughts7 {
+    display: none;
+}
+
+.thoughts1.open,
+.thoughts2.open,
+.thoughts3.open,
+.thoughts4.open,
+.thoughts5.open,
+.thoughts6.open,
+.thoughts7.open {
+    display: block;
+}
+
+.thoughts1 p,
+.thoughts2 p,
+.thoughts3 p,
+.thoughts4 p,
+.thoughts5 p,
+.thoughts6 p,
+.thoughts7 p {
+    padding-top: 10px;
 }
 
 /* 
