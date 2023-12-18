@@ -143,6 +143,10 @@ main h1 {
     text-align: center;
 }
 
+.game p {
+    font-size: 18px;
+}
+
 .game-cover {
     padding-top: 20px;
 }
@@ -155,18 +159,50 @@ main h1 {
     text-align: left;
     width: 300px;
     margin: 0 auto;
+    font-style: italic;
 }
 
 .game-startDate {
     padding-top: 10px;
 }
 
+.game-endDate {
+    padding-bottom: 5px;
+}
+
 .game-startDate,
 .game-endDate {
-    color: rgb(236, 236, 236);
+    color: rgb(252, 252, 252);
     text-align: left;
     width: 300px;
     margin: 0 auto;
+}
+
+.review {
+    text-align: left;
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+
+.review p {
+    padding-bottom: 3px;
+}
+
+#stats {
+    font-weight: bold;
+}
+
+.review p:nth-of-type(4) {
+    /* border-bottom: 1px solid white; */
+}
+
+.review p:nth-of-type(5) {
+    padding-top: 5px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
 }
 
 /* 
