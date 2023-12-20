@@ -14,7 +14,7 @@ header .wrapper {
 }
 
 .logo {
-    background: url(images/dpg.png) no-repeat 5% center;
+    background: url(images/dpg.svg) no-repeat 5% center;
     width: 70%;
     max-width: 350px;
     margin-right: auto;
