@@ -1,3 +1,14 @@
+// var prevScrollpos = window.pageYOffset;
+// window.onscroll = function () {
+//     var currentScrollPos = window.pageYOffset;
+//     if (prevScrollpos > currentScrollPos) {
+//         document.getElementById("headhead").style.top = "0";
+//     } else {
+//         document.getElementById("headhead").style.top = "-80px";
+//     }
+//     prevScrollpos = currentScrollPos;
+// }
+
 $(document).ready(function () {
     // when icon is clicked. either turn open on or off
     $(".drop-icon").on("click", function () {
