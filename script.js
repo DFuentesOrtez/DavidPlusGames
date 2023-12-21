@@ -9,6 +9,13 @@
 //     prevScrollpos = currentScrollPos;
 // }
 
+const logo = document.querySelector(".logo");
+
+logo.addEventListener("click", function () {
+
+    window.location.href = "index.html"
+});
+
 $(document).ready(function () {
     // when icon is clicked. either turn open on or off
     $(".drop-icon").on("click", function () {
