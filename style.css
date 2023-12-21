@@ -48,6 +48,10 @@ header .wrapper {
     padding-top: 0px;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 nav {
     height: 100%;
 }
@@ -357,6 +361,16 @@ main h1 {
 .thoughts6 p,
 .thoughts7 p {
     padding-top: 10px;
+}
+
+/* archive */
+.thoughts p {
+    padding-top: 10px;
+}
+
+.thoughts h2 {
+    padding-top: 30px;
+    text-decoration: underline;
 }
 
 /* 
