@@ -331,6 +331,7 @@ main h1 {
 #spoiler6:hover,
 #spoiler7:hover {
     color: rgb(98, 0, 255);
+    cursor: pointer;
 }
 
 .thoughts1,
@@ -407,6 +408,7 @@ main h1 {
     width: 20px;
 }
 
+.archive-covers2024,
 .archive-covers2023,
 .archive-covers2022,
 .archive-covers2021 {
@@ -429,6 +431,7 @@ main h1 {
         width: 125px;
     }
 
+    .archive-covers2024,
     .archive-covers2023,
     .archive-covers2022,
     .archive-covers2021 {
@@ -442,6 +445,7 @@ main h1 {
         width: 150px;
     }
 
+    .archive-covers2024,
     .archive-covers2023,
     .archive-covers2022,
     .archive-covers2021 {
@@ -457,6 +461,7 @@ main h1 {
         width: 175px;
     }
 
+    .archive-covers2024,
     .archive-covers2023,
     .archive-covers2022,
     .archive-covers2021 {
@@ -464,6 +469,7 @@ main h1 {
     }
 }
 
+.archive-covers2024.open,
 .archive-covers2023.open,
 .archive-covers2022.open,
 .archive-covers2021.open {

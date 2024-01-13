@@ -25,6 +25,13 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
+    $("#archive2024").on("click", function () {
+        $(".archive-covers2024").toggleClass("open");
+    });
+});
+
+$(document).ready(function () {
+
     $("#archive2023").on("click", function () {
         $(".archive-covers2023").toggleClass("open");
     });
