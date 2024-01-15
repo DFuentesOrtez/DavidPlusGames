@@ -310,6 +310,7 @@ main h1 {
 
 .game-cover {
     padding-bottom: 10px;
+    width: 300px;
 }
 
 .review {
@@ -317,7 +318,7 @@ main h1 {
     color: rgb(58, 58, 58);
     width: 300px;
     margin: 0 auto;
-    border-top: 1px solid #6C668D;
+    border-top: 2px solid #6C668D;
     padding-top: 5px;
 }
 
@@ -345,6 +346,10 @@ main h1 {
     .review {
         margin-bottom: 30px;
     }
+
+    .game-cover {
+        width: 375px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -352,8 +357,16 @@ main h1 {
         font-size: 20px;
     }
 
+    .game-title {
+        font-size: 28px;
+    }
+
     .game-head p {
         font-size: 16px;
+    }
+
+    .game-cover {
+        width: 450px;
     }
 }
 
@@ -367,12 +380,24 @@ main h1 {
         padding-top: 80px;
     }
 
+    .game-title {
+        font-size: 36px;
+        width: 690px;
+    }
+
     .game-cover {
         margin: 0 auto;
+        width: 600px;
     }
 
     .under-cover {
         margin: 0 auto;
+    }
+
+    .game-startDate,
+    .game-endDate,
+    .review {
+        width: 690px;
     }
 }
 
@@ -381,6 +406,10 @@ main h1 {
         width: 800px;
         max-width: 1300px;
         padding-bottom: 20px;
+    }
+
+    .game-cover {
+        width: 700px;
     }
 }
 
@@ -493,13 +522,14 @@ main h1 {
 }
 
 .archive-covers img {
-    width: 100px;
+    height: 65px;
+    border: solid black 1px;
 }
 
 @media (min-width: 600px) {
 
     .archive-covers img {
-        width: 125px;
+        height: 100px;
     }
 
     .archive-covers2024,
@@ -512,10 +542,6 @@ main h1 {
 
 @media (min-width: 768px) {
 
-    .archive-covers img {
-        width: 150px;
-    }
-
     .archive-covers2024,
     .archive-covers2023,
     .archive-covers2022,
@@ -524,12 +550,10 @@ main h1 {
     }
 }
 
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 
     .archive-covers img {
-        width: 175px;
+        height: 125px;
     }
 
     .archive-covers2024,
@@ -539,6 +563,8 @@ main h1 {
         max-width: 750px;
     }
 }
+
+@media (min-width: 1200px) {}
 
 .archive-covers2024.open,
 .archive-covers2023.open,
