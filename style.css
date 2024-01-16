@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #e4dbe6;
+    /* background-color: #e4dbe6; */
+    background-color: #ffffff;
 }
 
 h1,
@@ -177,12 +178,15 @@ header nav ul li a:hover {
 
 .intro h1,
 .intro p {
-    color: rgb(58, 58, 58);
+    /* color: rgb(58, 58, 58); */
+    color: #000000;
 }
 
 .intro h1 {
     /* text-decoration: underline; */
-    border-bottom: 2px solid #6C668D;
+    /* border-bottom: 2px solid #6C668D; */
+    border-bottom: 2px solid #000000;
+
     text-align: center;
     width: 80%;
     max-width: 500px;
@@ -220,21 +224,29 @@ header nav ul li a:hover {
 
 
 main h1 {
-    color: rgb(58, 58, 58);
+    /* color: rgb(58, 58, 58); */
+    color: #000000;
+
     text-align: center;
     padding-bottom: 10px;
     width: 90%;
     max-width: 1000px;
     margin: 75px auto 0 auto;
-    border-bottom: 3px solid #6C668D;
+    /* border-bottom: 3px solid #6C668D; */
+    border-bottom: 3px solid #000000;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 @media (min-width: 1200px) {
 
     .main-wrapper {
-        display: flex;
+        flex-direction: row;
         width: 95%;
-        max-width: 1400px;
+        max-width: 1600px;
         margin: 100px auto 0 auto;
         justify-content: space-around;
     }
@@ -256,10 +268,16 @@ main h1 {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-    background-color: rgb(221, 203, 219);
+    /* background-color: rgb(221, 203, 219); */
+    /* background-color: #a8a8af; */
+    /* background-color: #6c6c74; */
+    background-color: #525258;
+
     margin-bottom: 60px;
     margin-top: 30px;
-    border: solid 2px #6C668D;
+    /* border: solid 2px #6C668D; */
+    border: solid 2px #313131;
+
     border-radius: 10px;
 }
 
@@ -272,12 +290,17 @@ main h1 {
 }
 
 .game-title {
-    color: rgb(58, 58, 58);
-    border-bottom: 2px solid #6C668D;
+    /* color: rgb(58, 58, 58); */
+    /* color: #000000; */
+    color: #ffffff;
+
+    /* border-bottom: 2px solid #6C668D; */
+    border-bottom: 2px solid #ffffff;
+
     padding-top: 5px;
     padding-bottom: 2px;
     text-align: left;
-    width: 300px;
+    width: 90%;
     margin: 0 auto;
     font-style: italic;
 }
@@ -302,23 +325,31 @@ main h1 {
 
 .game-startDate,
 .game-endDate {
-    color: rgb(58, 58, 58);
+    /* color: rgb(58, 58, 58); */
+    /* color: #000000; */
+    color: #ffffff;
+
     text-align: left;
-    width: 300px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .game-cover {
     padding-bottom: 10px;
-    width: 300px;
+    width: 90%;
 }
 
 .review {
     text-align: left;
-    color: rgb(58, 58, 58);
-    width: 300px;
+    /* color: rgb(58, 58, 58); */
+    /* color: #000000; */
+    color: #ffffff;
+
+    width: 90%;
     margin: 0 auto;
-    border-top: 2px solid #6C668D;
+    /* border-top: 2px solid #6C668D; */
+    border-top: 2px solid #ffffff;
+
     padding-top: 5px;
 }
 
@@ -336,20 +367,20 @@ main h1 {
         max-width: 700px;
     }
 
-    .game-title,
+    /* .game-title,
     .game-startDate,
     .game-endDate,
     .review {
         width: 500px;
-    }
+    } */
 
     .review {
         margin-bottom: 30px;
     }
 
-    .game-cover {
+    /* .game-cover {
         width: 375px;
-    }
+    } */
 }
 
 @media (min-width: 768px) {
@@ -365,51 +396,54 @@ main h1 {
         font-size: 16px;
     }
 
-    .game-cover {
+    /* .game-cover {
         width: 450px;
-    }
+    } */
 }
 
 @media (min-width: 992px) {
     .game {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        max-width: 900px;
+        /* display: flex;
+        flex-direction: column; */
+        width: 75%;
+        max-width: 850px;
         align-items: start;
         padding-top: 80px;
     }
 
     .game-title {
         font-size: 36px;
-        width: 690px;
+        /* width: 690px; */
     }
 
     .game-cover {
         margin: 0 auto;
-        width: 600px;
+        width: 80%;
     }
 
     .under-cover {
         margin: 0 auto;
     }
 
-    .game-startDate,
-    .game-endDate,
     .review {
-        width: 690px;
+        width: 90%;
     }
 }
 
 @media (min-width: 1200px) {
     .game {
-        width: 800px;
-        max-width: 1300px;
+        width: 100%;
+        max-width: 1000px;
         padding-bottom: 20px;
     }
 
     .game-cover {
-        width: 700px;
+        width: 90%;
+        max-width: 850px;
+    }
+
+    .game-wrapper {
+        width: 70%;
     }
 }
 
@@ -564,7 +598,16 @@ main h1 {
     }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .archive {
+        width: 325px;
+    }
+
+    .archive-wrapper {
+        width: 30%;
+        max-width: 600px;
+    }
+}
 
 .archive-covers2024.open,
 .archive-covers2023.open,
