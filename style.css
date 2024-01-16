@@ -303,6 +303,7 @@ main h1 {
     width: 90%;
     margin: 0 auto;
     font-style: italic;
+    text-transform: uppercase;
 }
 
 .game-startDate {
@@ -542,6 +543,7 @@ main h1 {
     width: 95%;
     text-align: left;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .started {
