@@ -5,7 +5,6 @@
 }
 
 body {
-    /* background-color: #e4dbe6; */
     background-color: #ffffff;
 }
 
@@ -26,19 +25,11 @@ li {
     font-weight: 700;
 }
 
-/* #headhead {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    transition: top 0.3s;
-} */
-
 #headhead {
     background-color: #49494e;
 }
 
 header .wrapper {
-    /* background-color: #8799A1; */
     height: 60px;
 }
 
@@ -178,15 +169,11 @@ header nav ul li a:hover {
 
 .intro h1,
 .intro p {
-    /* color: rgb(58, 58, 58); */
     color: #000000;
 }
 
 .intro h1 {
-    /* text-decoration: underline; */
-    /* border-bottom: 2px solid #6C668D; */
     border-bottom: 2px solid #000000;
-
     text-align: center;
     width: 80%;
     max-width: 500px;
@@ -221,18 +208,13 @@ header nav ul li a:hover {
  * MAIN SECTION
  *
  */
-
-
 main h1 {
-    /* color: rgb(58, 58, 58); */
     color: #000000;
-
     text-align: center;
     padding-bottom: 10px;
     width: 90%;
     max-width: 1000px;
     margin: 75px auto 0 auto;
-    /* border-bottom: 3px solid #6C668D; */
     border-bottom: 3px solid #000000;
 }
 
@@ -268,16 +250,10 @@ main h1 {
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
-    /* background-color: rgb(221, 203, 219); */
-    /* background-color: #a8a8af; */
-    /* background-color: #6c6c74; */
     background-color: #525258;
-
     margin-bottom: 60px;
     margin-top: 30px;
-    /* border: solid 2px #6C668D; */
     border: solid 2px #313131;
-
     border-radius: 10px;
 }
 
@@ -290,13 +266,8 @@ main h1 {
 }
 
 .game-title {
-    /* color: rgb(58, 58, 58); */
-    /* color: #000000; */
     color: #ffffff;
-
-    /* border-bottom: 2px solid #6C668D; */
     border-bottom: 2px solid #ffffff;
-
     padding-top: 5px;
     padding-bottom: 2px;
     text-align: left;
@@ -326,10 +297,7 @@ main h1 {
 
 .game-startDate,
 .game-endDate {
-    /* color: rgb(58, 58, 58); */
-    /* color: #000000; */
     color: #ffffff;
-
     text-align: left;
     width: 90%;
     margin: 0 auto;
@@ -342,15 +310,10 @@ main h1 {
 
 .review {
     text-align: left;
-    /* color: rgb(58, 58, 58); */
-    /* color: #000000; */
     color: #ffffff;
-
     width: 90%;
     margin: 0 auto;
-    /* border-top: 2px solid #6C668D; */
     border-top: 2px solid #ffffff;
-
     padding-top: 5px;
     margin-bottom: 30px;
 }
@@ -364,25 +327,9 @@ main h1 {
 }
 
 @media (min-width: 600px) {
-
     .game {
         max-width: 700px;
     }
-
-    /* .game-title,
-    .game-startDate,
-    .game-endDate,
-    .review {
-        width: 500px;
-    } */
-
-    /* .review {
-        margin-bottom: 30px;
-    } */
-
-    /* .game-cover {
-        width: 375px;
-    } */
 }
 
 @media (min-width: 768px) {
@@ -397,16 +344,10 @@ main h1 {
     .game-head p {
         font-size: 16px;
     }
-
-    /* .game-cover {
-        width: 450px;
-    } */
 }
 
 @media (min-width: 992px) {
     .game {
-        /* display: flex;
-        flex-direction: column; */
         width: 75%;
         max-width: 850px;
         align-items: start;
@@ -415,7 +356,6 @@ main h1 {
 
     .game-title {
         font-size: 36px;
-        /* width: 690px; */
     }
 
     .game-cover {
@@ -687,4 +627,28 @@ footer p {
     text-align: center;
     padding: 15px;
     font-weight: bold;
+}
+
+.about-wrapper {
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+.about-wrapper h1 {
+    text-align: center;
+}
+
+.about-wrapper p {
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #525258;
+    border: solid 2px #313131;
+    border-radius: 5px;
+}
+
+@media (min-width: 1200px) {
+    .about-wrapper {
+        width: 50%;
+    }
 }
