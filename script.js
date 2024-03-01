@@ -1,13 +1,4 @@
-// var prevScrollpos = window.pageYOffset;
-// window.onscroll = function () {
-//     var currentScrollPos = window.pageYOffset;
-//     if (prevScrollpos > currentScrollPos) {
-//         document.getElementById("headhead").style.top = "0";
-//     } else {
-//         document.getElementById("headhead").style.top = "-80px";
-//     }
-//     prevScrollpos = currentScrollPos;
-// }
+// LOGO STUFF
 
 const logo = document.querySelector(".logo");
 
@@ -22,6 +13,10 @@ $(document).ready(function () {
         $("header nav ul").toggleClass("open");
     });
 });
+
+//
+// ARCHIVE YEARS
+//
 
 $(document).ready(function () {
 
@@ -51,51 +46,76 @@ $(document).ready(function () {
     });
 });
 
+// 
+// SPOILER EXPAND STUFF
+// 
+
 $(document).ready(function () {
 
-    $("main .game #spoiler1").on("click", function () {
-        $("main .game .thoughts1").toggleClass("open");
+    $(".spoilerMsg:eq(0)").on("click", function () {
+        $(".gameThoughts:eq(0)").toggleClass("open");
     });
 });
 
 $(document).ready(function () {
 
-    $("main .game #spoiler2").on("click", function () {
-        $("main .game .thoughts2").toggleClass("open");
+    $(".spoilerMsg:eq(1)").on("click", function () {
+        $(".gameThoughts:eq(1)").toggleClass("open");
     });
 });
 
 $(document).ready(function () {
 
-    $("main .game #spoiler3").on("click", function () {
-        $("main .game .thoughts3").toggleClass("open");
+    $(".spoilerMsg:eq(2)").on("click", function () {
+        $(".gameThoughts:eq(2)").toggleClass("open");
     });
 });
 
 $(document).ready(function () {
 
-    $("main .game #spoiler4").on("click", function () {
-        $("main .game .thoughts4").toggleClass("open");
+    $(".spoilerMsg:eq(3)").on("click", function () {
+        $(".gameThoughts:eq(3)").toggleClass("open");
     });
 });
 
 $(document).ready(function () {
 
-    $("main .game #spoiler5").on("click", function () {
-        $("main .game .thoughts5").toggleClass("open");
+    $(".spoilerMsg:eq(4)").on("click", function () {
+        $(".gameThoughts:eq(4)").toggleClass("open");
     });
 });
 
 $(document).ready(function () {
 
-    $("main .game #spoiler6").on("click", function () {
-        $("main .game .thoughts6").toggleClass("open");
+    $(".spoilerMsg:eq(5)").on("click", function () {
+        $(".gameThoughts:eq(5)").toggleClass("open");
     });
 });
 
 $(document).ready(function () {
 
-    $("main .game #spoiler7").on("click", function () {
-        $("main .game .thoughts7").toggleClass("open");
+    $(".spoilerMsg:eq(6)").on("click", function () {
+        $(".gameThoughts:eq(6)").toggleClass("open");
+    });
+});
+
+$(document).ready(function () {
+
+    $(".spoilerMsg:eq(7)").on("click", function () {
+        $(".gameThoughts:eq(7)").toggleClass("open");
+    });
+});
+
+$(document).ready(function () {
+
+    $(".spoilerMsg:eq(8)").on("click", function () {
+        $(".gameThoughts:eq(8)").toggleClass("open");
+    });
+});
+
+$(document).ready(function () {
+
+    $(".spoilerMsg:eq(9)").on("click", function () {
+        $(".gameThoughts:eq(9)").toggleClass("open");
     });
 });
