@@ -520,14 +520,27 @@ main h1 {
     border: solid black 1px;
 }
 
+.archive-covers2024 img {
+    width: 200px;
+}
+
 .archive-covers h2 {
     padding-top: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .archive-covers img {
+        width: 160px;
+        height: 90px;
+    }
 }
 
 @media (min-width: 600px) {
 
     .archive-covers img {
-        height: 100px;
+        min-height: 115px;
+        min-width: 200px;
     }
 
     .archive-covers2024,
