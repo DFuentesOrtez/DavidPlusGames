@@ -119,3 +119,9 @@ $(document).ready(function () {
         $(".gameThoughts:eq(9)").toggleClass("open");
     });
 });
+
+
+var a = document.getElementsByClassName("order");
+for (let i = 0; i < a.length; i++) {
+    a[i].innerHTML = (i + 1) + ".";
+}
